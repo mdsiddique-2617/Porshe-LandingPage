@@ -1,0 +1,437 @@
+@media only screen and (max-width:425px){
+
+    .md-logo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .md-logo h5{
+        font-size: 15px;
+    }
+
+    .md-navhide{
+        font-size: 20px;
+    }
+
+    .md-links{
+        visibility: hidden;
+        height: 0px;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 100%;
+        width: 100%;
+        text-align: center;
+        transition: 1s;
+        background-color: rgba(0, 0, 0, 0.486);
+    }
+
+    .md-navhide{
+        visibility: visible;
+    }
+
+    .md-home-cross {
+        height: 100vh;
+        width: 250px;
+        right: 50px;
+    }
+
+    .md-porshe-about {
+        z-index: 2;
+        left: 105px;
+        bottom: 0;
+    }
+    
+    .md-01by100{
+        font-size: 10px;
+        z-index: 2;
+        left: 10px;
+        bottom: 0;
+    }
+
+    .md-01by100 span{
+        font-size: 50px;
+    }
+
+    .md-porshe-home {
+        width: 300px !important;
+        left: 15px;
+        top: 200px;
+        z-index: 3;
+    }
+
+    .md-porshe-name {
+        font-size: 70px;
+        color: white;
+        font-family: "Bona Nova SC", serif !important;
+        font-weight: 25 !important;
+        font-style: normal;
+        left: 20px;
+        top: 160px;
+        z-index: 2;
+    }
+
+    .md-about {
+        width: 100% !important;
+        padding: 20px !important;
+        flex-direction: column;
+        height: 220vh;
+        background-image: linear-gradient(to bottom, rgb(168, 168, 168) 45%, black 45%, black 100%);
+    }
+
+    .md-about .md-aboutone{
+        width: 100% !important;
+        height: 70vh !important;
+    }
+
+    .md-aboutone h1{
+        margin: 0px !important;
+        padding: 0px !important;
+        font-size: 20px;
+    }
+
+    .md-aboutone P{
+        width: 100% !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        font-size: 19px !important;
+    }
+    
+    .md-timeline{
+        height: 120vh !important;
+        width: 100% !important;
+        padding: 0% !important;
+        margin-top: 20px !important;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .md-model1, .md-model2, .md-model3{
+        height: 300vh !important;
+        flex-direction: column;
+        width: 100% !important;
+        justify-content: inherit;
+        align-items: inherit;
+    }
+
+    .car1,
+    .car2,
+    .car3,
+    .car4,
+    .car5,
+    .car6,
+    .car7,
+    .car8,
+    .car9{
+        width: 80% !important;
+        height: 80vh !important;
+    }
+        
+}
+
+@media only screen and (min-width:375px) and (max-width:425px){
+    .md-porshe-about {
+        z-index: 2;
+        left: 150px;
+        bottom: 0;
+    }
+    
+    .md-01by100{
+        font-size: 10px;
+        z-index: 2;
+        left: 20px;
+        bottom: 0;
+    }
+
+    .md-porshe-home {
+        width: 325px !important;
+        left: 35px;
+        top: 200px;
+        z-index: 3;
+    }
+
+    .md-porshe-name {
+        font-size: 80px;
+        color: white;
+        font-family: "Bona Nova SC", serif !important;
+        font-weight: 25 !important;
+        font-style: normal;
+        left: 35px;
+        top: 150px;
+        z-index: 2;
+    }
+
+
+}
+
+@media only screen and (min-width:426px) and (max-width:475px){
+    .md-porshe-about {
+        z-index: 2;
+        left: 200px;
+        bottom: 0;
+    }
+
+    .md-01by100{
+        font-size: 10px;
+        z-index: 2;
+        left: 30px;
+        bottom: 0;
+    }
+
+    .md-porshe-home {
+        width: 350px !important;
+        left: 45px;
+        top: 200px;
+        z-index: 3;
+    }
+
+    .md-porshe-name {
+        font-size: 90px;
+        color: white;
+        font-family: "Bona Nova SC", serif !important;
+        font-weight: 25 !important;
+        font-style: normal;
+        left: 35px;
+        top: 145px;
+        z-index: 2;
+    }
+}
+
+@media only screen and (min-width:476px) and (max-width:768px){
+    .md-home-cross {
+        height: 100vh;
+        width: 250px;
+        right: 200px;
+    }
+
+    .md-porshe-about {
+        z-index: 2;
+        left: 525px;
+        bottom: 0;
+    }
+    
+    .md-table {
+        right: 300px;
+    }
+
+    .md-01by100{
+        font-size: 10px;
+        z-index: 2;
+        left: 20px;
+        bottom: 0;
+    }
+
+    .md-01by100 span{
+        font-size: 50px;
+    }
+
+    .md-roundbutton {
+        background-color: black;
+        right: 260px;
+        bottom: 50px;
+        z-index: 4;
+    }
+    
+    .md-porshe-home {
+        width: 500px !important;
+        left: 150px;
+        top: 175px;
+        z-index: 3;
+    }
+
+    .md-porshe-name {
+        font-size: 85px;
+        color: white;
+        font-family: "Bona Nova SC", serif !important;
+        font-weight: 25 !important;
+        font-style: normal;
+        left: 250px;
+        top: 130px;
+        z-index: 2;
+    }
+
+    .md-about {
+        width: 100% !important;
+        padding: 20px !important;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: space-around;
+        height: 120vh;
+        /* background-image: linear-gradient(to bottom, rgb(168, 168, 168) 45%, black 45%, black 100%); */
+    }
+
+    .md-about .md-aboutone{
+        width: 50% !important;
+        height: 70vh !important;
+    }
+
+    .md-aboutone h1{
+        margin: 0px !important;
+        padding: 0px !important;
+        font-size: 20px;
+    }
+
+    .md-aboutone P{
+        width: 75% !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        font-size: 19px !important;
+    }
+    
+    .md-aboutone img{
+        width: 400px !important;
+        left: 157px;
+        opacity: 0.7;
+    }
+
+}
+@media only screen and (min-width:769px) and (max-width:895px){
+    .md-home-cross {
+        height: 100vh;
+        width: 250px;
+        right: 175px;
+    }
+
+    .md-porshe-about {
+        z-index: 2;
+        left: 20px;
+        bottom: 0;
+    }
+
+    .md-table {
+        right: 275px;
+    }
+  
+    .md-01by100{
+        font-size: 10px;
+        z-index: 2;
+        left: 30px;
+        bottom: 60px;
+    }
+
+    .md-01by100 span{
+        font-size: 75px !important
+    }
+
+    .md-roundbutton {
+        background-color: black;
+        right: 335px;
+        bottom: 20px;
+        z-index: 4;
+    }
+    
+    .md-porshe-home {
+        width: 550px !important;
+        left: 190px;
+        top: 175px;
+        z-index: 3;
+    }
+
+    .md-porshe-name {
+        font-size: 90px;
+        color: white;
+        font-family: "Bona Nova SC", serif !important;
+        font-weight: 25 !important;
+        font-style: normal;
+        left: 300px;
+        top: 115px;
+        z-index: 2;
+    }
+
+    .md-about {
+        width: 100% !important;
+        padding: 20px !important;
+        /* flex-direction: column; */
+        align-items: start;
+        justify-content: space-around;
+        height: 130vh;
+        /* background-image: linear-gradient(to bottom, rgb(168, 168, 168) 45%, black 45%, black 100%); */
+    }
+
+    .md-about .md-aboutone{
+        width: 50% !important;
+        height: 70vh !important;
+    }
+
+    .md-aboutone h1{
+        margin: 0px !important;
+        padding: 0px !important;
+        font-size: 20px;
+    }
+
+    .md-aboutone P{
+        width: 50% !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        padding-left: 20px !important;
+        font-size: 19px !important;
+    }
+    
+    .md-aboutone img{
+        width: 475px !important;
+        left: 185px;
+    }
+
+}
+
+@media only screen and (min-width:896px) and (max-width:1024px){
+    .md-roundbutton {
+        background-color: black;
+        right: 240px;
+        bottom: 50px;
+        z-index: 4;
+    }
+    
+    .md-porshe-home {
+        width: 600px !important;
+        left: 240px;
+        top: 175px;
+        z-index: 3;
+    }
+
+    .md-porshe-name {
+        font-size: 100px;
+        color: white;
+        font-family: "Bona Nova SC", serif !important;
+        font-weight: 25 !important;
+        font-style: normal;
+        left: 365px;
+        top: 115px;
+        z-index: 2;
+    }
+
+    .md-about {
+        width: 100% !important;
+        padding: 20px !important;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: space-around;
+        height: 140vh;
+        /* background-image: linear-gradient(to bottom, rgb(168, 168, 168) 45%, black 45%, black 100%); */
+    }
+
+    .md-about .md-aboutone{
+        width: 50% !important;
+        height: 70vh !important;
+    }
+
+    .md-aboutone h1{
+        margin: 0px !important;
+        padding: 0px !important;
+        font-size: 20px;
+    }
+
+    .md-aboutone P{
+        width: 50% !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        padding-left: 20px !important;
+        font-size: 19px !important;
+    }
+    
+    .md-aboutone img{
+        width: 475px !important;
+        left: 250px;
+    }
+
+}

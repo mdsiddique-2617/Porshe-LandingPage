@@ -1,0 +1,701 @@
+body {
+    font-family: "Ubuntu", serif !important;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.md-overall-container {
+    overflow-x: hidden !important;
+}
+
+.md-home {
+    background-color: rgb(168, 168, 168);
+    height: 100vh !important;
+}
+
+.md-navbar {
+    width: 100% !important;
+    z-index: 999;
+    position: fixed !important;
+}
+
+.md-logo img:hover+h5 {
+    color: black;
+    text-shadow: 0px 0px 3px white;
+    transform: scale(1.05);
+    transition-duration: 0.25s;
+}
+
+.md-logo h5 {
+    color: white;
+    font-family: "Bona Nova SC", serif !important;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 1px 1px 1px black;
+}
+
+.md-logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.md-navhide{
+    right: 50px;
+    visibility: hidden;
+}
+
+.md-navhide-checkbox:checked+div{
+    height: auto;
+    right: 0;
+    visibility: visible;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.md-links a {
+    color: white;
+    text-decoration: none;
+    font-family: "Bona Nova SC", serif !important;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 0px 0px 3px black;
+}
+
+.md-links a:first-child:hover {
+    color: white;
+    text-shadow: 0px 0px 3px white;
+}
+
+.md-links a:nth-child(2):hover {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.md-links a:nth-child(3):hover {
+    color: black;
+    text-shadow: 1px 1px 1px black;
+}
+
+.md-links a:last-child:hover {
+    color: black;
+    text-shadow: 1px 1px 1px black;
+}
+
+.md-smokegif {
+    width: 25px;
+    height: 25px;
+    visibility: hidden;
+}
+
+.md-links div:hover img {
+    visibility: visible;
+}
+
+.md-porshe-name {
+    font-size: 125px;
+    color: white;
+    font-family: "Bona Nova SC", serif !important;
+    font-weight: 25 !important;
+    font-style: normal;
+    left: 410px;
+    top: 125px;
+    z-index: 2;
+}
+
+.md-porshe-home {
+    width: 600px !important;
+    left: 360px;
+    top: 200px;
+    z-index: 3;
+}
+
+.md-porshe-home:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+.md-porshe-about {
+    color: white;
+    font-family: "Bona Nova SC", serif !important;
+    font-weight: 25 !important;
+    font-style: normal;
+    left: 50px;
+    bottom: 150px;
+}
+
+.md-01by100 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 25 !important;
+    font-style: normal;
+    left: 50px;
+    bottom: 0;
+}
+
+.md-01by100 span {
+    font-size: 100px;
+}
+
+.md-table {
+    font-size: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 25 !important;
+    font-style: normal;
+    bottom: 25px;
+    right: 435px;
+    z-index: 3;
+    text-shadow: 0px 0px 3px gold;
+}
+
+.md-table th,
+.md-table td {
+    padding: 5px;
+}
+
+.md-roundbutton {
+    background-color: black;
+    right: 380px;
+    bottom: 50px;
+    z-index: 4;
+}
+
+.md-home-cross {
+    /* background-color: rgb(105, 105, 105); */
+    height: 100vh;
+    width: 300px;
+    top: 0px;
+    right: 300px;
+    background-image: url("./homeBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    transform: skewX(-20deg);
+}
+
+.md-about {
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(168, 168, 168) 50%, black 50%);
+}
+
+.md-about img {
+    width: 600px;
+    left: 360px;
+    top: 125px;
+    filter: brightness(120%);
+}
+
+.md-about h1::first-letter {
+    color: white;
+    font-size: 50px;
+    font-family: "Bona Nova SC", serif !important;
+    font-weight: 25 !important;
+    font-style: normal;
+}
+
+.md-about h1 span:last-child {
+    color: white;
+    font-size: 50px;
+    font-family: "Bona Nova SC", serif !important;
+    font-weight: 25 !important;
+    font-style: normal;
+}
+
+.md-about p::first-letter {
+    font-size: 40px;
+}
+
+.md-about p span {
+    color: white;
+    font-size: 25px;
+    font-family: "Bona Nova SC", serif !important;
+    font-weight: 25 !important;
+    font-style: normal;
+}
+
+.md-timeline {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.md-timeline div:first-child {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.md-timeline div:nth-child(2) {
+    width: 2px;
+    height: 500px;
+}
+
+.md-timeline div:last-child {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.md-timeline h4 {
+    font-size: 10px !important;
+    margin-top: 5px;
+}
+
+.md-year1938 {
+    top: 60px;
+    right: 70px;
+}
+
+.md-year1948 {
+    top: 120px;
+}
+
+.md-year1953 {
+    top: 180px;
+    right: 19px;
+}
+
+.md-year1964 {
+    top: 230px;
+}
+
+.md-year2002 {
+    top: 280px;
+    right: 22px;
+}
+
+.md-year2010 {
+    top: 330px;
+}
+
+.md-year2019 {
+    top: 420px;
+    right: 62px;
+}
+
+.md-timeline-rowreverse {
+    left: 60px;
+}
+
+.md-gotomodel2 button:hover {
+    background-color: black !important;
+    color: rgb(168, 168, 168);
+}
+
+.md-gotomodel3 button:hover {
+    background-color: rgb(168, 168, 168) !important;
+    color: black !important;
+}
+
+.md-model1,
+.md-model3 {
+    background-image: linear-gradient(to right, black 0%, black 33.3%, black, rgb(168, 168, 168) 33.3%, rgb(168, 168, 168) 66.6%, black, black 66.6%, black 100%);
+    height: 100vh !important;
+}
+
+.car1,
+.car2,
+.car3,
+.car4,
+.car5,
+.car6,
+.car7,
+.car8,
+.car9 {
+    width: 30%;
+    height: 80vh;
+    border-radius: 20px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.car1 button:hover,
+.car2 button:hover,
+.car3 button:hover,
+.car4 button:hover,
+.car5 button:hover,
+.car6 button:hover,
+.car7 button:hover,
+.car8 button:hover,
+.car9 button:hover {
+    background-color: gold !important;
+    color: black !important;
+}
+
+.md-car1cardclose,
+.md-car2cardclose,
+.md-car3cardclose,
+.md-car4cardclose,
+.md-car5cardclose,
+.md-car6cardclose,
+.md-car7cardclose,
+.md-car8cardclose,
+.md-car9cardclose {
+    right: 25px;
+    top: 25px;
+}
+
+.md-car1buycard,
+.md-car2buycard,
+.md-car3buycard,
+.md-car4buycard,
+.md-car5buycard,
+.md-car6buycard,
+.md-car7buycard,
+.md-car8buycard,
+.md-car9buycard {
+    /* right: 100%; */
+    z-index: 1000;
+    left: 100%;
+    transition: 1s;
+    visibility: hidden;
+}
+
+.md-model1 .car1checkbox:checked~.md-car1buycard {
+    left: 0;
+    visibility: visible;
+}
+
+.md-model1 .clscar1checkbox:checked~.md-car1buycard {
+    left: 100%;
+    transition: 1s;
+}
+
+.md-model1 .car2checkbox:checked~.md-car2buycard {
+    left: 0;
+    visibility: visible;
+}
+
+.md-model1 .clscar2checkbox:checked~.md-car2buycard {
+    left: 100%;
+    transition: 1s;
+}
+
+.md-model1 .car3checkbox:checked~.md-car3buycard {
+    left: 0;
+    visibility: visible;
+}
+
+.md-model1 .clscar3checkbox:checked~.md-car3buycard {
+    left: 100%;
+    transition: 1s;
+}
+
+.md-model2 .car4checkbox:checked~.md-car4buycard {
+    left: 0;
+    visibility: visible;
+}
+
+.md-model2 .clscar4checkbox:checked~.md-car4buycard {
+    left: 100%;
+    transition: 1s;
+}
+
+.md-model2 .car5checkbox:checked~.md-car5buycard {
+    left: 0;
+    visibility: visible;
+}
+
+.md-model2 .clscar5checkbox:checked~.md-car5buycard {
+    left: 100%;
+    transition: 1s;
+}
+
+.md-model2 .car6checkbox:checked~.md-car6buycard {
+    left: 0;
+    visibility: visible;
+}
+
+.md-model2 .clscar6checkbox:checked~.md-car6buycard {
+    left: 100%;
+    transition: 1s;
+}
+
+.md-model3 .car7checkbox:checked~.md-car7buycard {
+    left: 0;
+    visibility: visible;
+}
+
+.md-model3 .clscar7checkbox:checked~.md-car7buycard {
+    left: 100%;
+    transition: 1s;
+}
+
+.md-model3 .car8checkbox:checked~.md-car8buycard {
+    left: 0;
+    visibility: visible;
+}
+
+.md-model3 .clscar8checkbox:checked~.md-car8buycard {
+    left: 100%;
+    transition: 1s;
+}
+
+.md-model3 .car9checkbox:checked~.md-car9buycard {
+    left: 0;
+    visibility: visible;
+}
+
+.md-model3 .clscar9checkbox:checked~.md-car9buycard {
+    left: 100%;
+    transition: 1s;
+}
+
+.md-table-forcars {
+    margin-top: 150px !important;
+    font-size: 15px !important;
+}
+
+.car1 {
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.car1:hover .md-comeup,
+.car2:hover .md-comeup,
+.car3:hover .md-comeup,
+.car4:hover .md-comeup,
+.car5:hover .md-comeup,
+.car6:hover .md-comeup,
+.car7:hover .md-comeup,
+.car8:hover .md-comeup,
+.car9:hover .md-comeup {
+    bottom: 0%;
+    transition-duration: 1s;
+}
+
+.md-comeup {
+    bottom: -100%;
+    z-index: 4;
+}
+
+.md-insidecar {
+    left: 50px;
+    top: 75px;
+}
+
+.car1 div {
+    border-bottom-right-radius: 100px;
+
+}
+
+.car1 img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 100px;
+}
+
+.carbg1 {
+    background-image: url("./Boxsterbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 30%;
+    filter: opacity(0.1);
+}
+
+.car2 div {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.car2 img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.carbg2 {
+    background-image: url("./porshe928bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 30%;
+    filter: opacity(0.1);
+}
+
+.car3 {
+    border-radius: 20px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.car3 div {
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 20px;
+}
+
+.car3 img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 100px;
+}
+
+.carbg3 {
+    background-image: url("./carrerabg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 30%;
+    filter: opacity(0.1);
+}
+
+.car4 {
+    border-radius: 20px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.car4 div {
+    border-bottom-left-radius: 100px;
+}
+
+.car4 img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 100px;
+}
+
+.carbg4 {
+    background-image: url("./porshe356bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 30%;
+    filter: opacity(0.1);
+}
+
+.car5 div {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.car5 img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.carbg5 {
+    background-image: url("./Porsche911bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 30%;
+    filter: opacity(0.1);
+}
+
+.car6 {
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.car6 div {
+    border-bottom-right-radius: 100px;
+
+}
+
+.car6 img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 100px;
+}
+
+.carbg6 {
+    background-image: url("./porshe959bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 30%;
+    filter: opacity(0.1);
+}
+
+.car7 {
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.car7 div {
+    border-bottom-right-radius: 100px;
+
+}
+
+.car7 img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 100px;
+}
+
+.carbg7 {
+    background-image: url("./porshespyderbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 30%;
+    filter: opacity(0.1);
+}
+
+.car8 div {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.car8 img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.carbg8 {
+    background-image: url("./CarreraGTbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 100%;
+    filter: opacity(0.1);
+}
+
+.car9 {
+    border-radius: 20px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.car9 div {
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 20px;
+}
+
+.car9 img {
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 100px;
+}
+
+.carbg9 {
+    background-image: url("./911bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 30%;
+    filter: opacity(0.1);
+}
+
+.md-gotomodel2,
+.md-gotomodel3 {
+    bottom: 20px;
+}
+
+.md-model2 {
+    background-image: linear-gradient(to bottom, black 0%, black 33.3%, rgb(168, 168, 168) 33.3%, rgb(168, 168, 168) 66.6%, black 66.6%, black 100%);
+    height: 100vh !important;
+}
+
+footer {
+    background-color: rgb(168, 168, 168) !important;
+    background-image: linear-gradient(to bottom, black 0%, black 20%, rgb(168, 168, 168) 20%, rgb(168, 168, 168) 80%, black 80%, black 100%);
+    height: 100vh;
+    padding-top: 95px;
+}
+
+/* @media only screen and (max-width:425px){
+    .md-links{
+        visibility: hidden;
+        height: 0px;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        right: 100%;
+        width: 100%;
+        text-align: center;
+        transition: 1s;
+        background-color: rgba(0, 0, 0, 0.486);
+    }
+
+    .md-navhide{
+        visibility: visible;
+    }
+} */
